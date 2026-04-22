@@ -95,4 +95,12 @@ public class ProductController {
         productRepository.deleteById(id);
         return ResponseEntity.ok(new MessageResponse("Product " + id + " deleted successfully."));
     }
+
+
+    @GetMapping("/random")
+    @Operation(summary = "Random")
+    public ResponseEntity<String> random(
+            @Parameter(description = "Name ", example = "Laptop") @RequestParam String name) {
+        return ResponseEntity.ok("Hi" + name);
+    }
 }
