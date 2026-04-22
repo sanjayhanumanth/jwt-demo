@@ -1,0 +1,78 @@
+# ─── Compiled Output ───────────────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ─── Maven ─────────────────────────────────────────────────────────────────────
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ─── Spring Boot ───────────────────────────────────────────────────────────────
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+application-prod.properties
+application-prod.yml
+
+# ─── IDE - IntelliJ IDEA ───────────────────────────────────────────────────────
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ─── IDE - Eclipse ─────────────────────────────────────────────────────────────
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# ─── IDE - VS Code ─────────────────────────────────────────────────────────────
+.vscode/
+
+# ─── IDE - NetBeans ────────────────────────────────────────────────────────────
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+
+# ─── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ─── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+log/
+
+# ─── Secrets & Environment ─────────────────────────────────────────────────────
+.env
+.env.*
+secrets.properties
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# ─── H2 Database files ─────────────────────────────────────────────────────────
+*.db
+*.mv.db
+*.trace.db
+
+# ─── Test coverage ─────────────────────────────────────────────────────────────
+.jacoco/
+jacoco.exec
