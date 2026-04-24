@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
 EXPOSE 8071
-CMD ["java", "-jar", "target/jwt-demo-1.0.0.jar"]
+CMD ["java","-jar","target/jwt-demo-1.0.0.jar"]
